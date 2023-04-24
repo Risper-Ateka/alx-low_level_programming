@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+  *main - Entry point
+  *n - is a random number that is positive, negative or zero
+  *Return: always 0(success)
+  */
 int main(void)
 {
 	int n;
