@@ -9,8 +9,14 @@
   */
 int main(int argc, char *argv[])
 {
+	int a = atoi(argv[1]);
+	int b = atoi(argv[2]);
+	int mul = (a * b);
+
 	if (argc == 3)
-		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+	{
+		printf("%d\n", mul);
+	}
 	else if (argc < 3 || argc > 3)
 	{
 		printf("error\n");
